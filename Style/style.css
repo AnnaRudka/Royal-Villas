@@ -6,8 +6,202 @@
 body{
     font-family: "Lato", Helvetica, Arial, sans-serif;
     color: #9b9b9b;
+    font-size: 14px;
+}
+header, section{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+}
+section{
+    padding-bottom: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.RVabsolute{
+    position: absolute;
+    z-index: 99999;
+}
+.RVrelative{
+    position: relative;
+}
+.RVfixed{
+    position: fixed;
+    z-index: 999999;
 }
 h1, h2, h3, h4, h5, h6{
     font-family: "Poppins", Helvetica, Arial, sans-serif;
-    color: #151515;
+}
+header{
+    top: 0px;
+    padding: 10px 15px;
+}
+.RVmenu{
+    text-align: center;
+    word-spacing: 10px;
+}
+.RVright{
+    text-align: right;
+}
+.RVLinelight::after, .RVLinelight::before{
+    box-sizing: border-box;
+    content:"";
+    display: block;
+    background-color: #d6d6d6;
+    height: 1px;
+    margin: 20px 15px;
+}
+.RVLinedark::after{
+    box-sizing: border-box;
+    content:"";
+    display: block;
+    background-color: #000000;
+    height: 1px;
+    margin: 20px auto;
+}
+.RVFlexrow{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; 
+    box-sizing: border-box;
+}
+main{
+    margin-top: 200px;
+}
+img{
+    width: 100%;
+}
+.RVcol-3, .RVcol-4, .RVcol-6, .RVcol-9{
+    box-sizing: border-box;
+}
+.RVcol-4{
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+.RVcol-9{
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+.RVcol-3{
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.RVcol-6{
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.RVcol-7{
+    -ms-flex: 0 0 60%;
+    flex: 0 0 60%;
+    max-width: 60%;
+}
+.RVcol-5{
+    -ms-flex: 0 0 40%;
+    flex: 0 0 40%;
+    max-width: 40%;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+a:hover, a:focus{
+    color: rgb(221, 221, 221);
+}
+.RVabsolutBlock{
+    top: 120px;
+    left: 30px;
+    color: white;
+}
+.RVLineLeftBlock{
+    width: 400px;
+    height: 70px;
+    border-left: 3px #f3f3f3 solid;
+    margin: 20px 40px;
+    padding-left: 20px;
+    line-height: 1.5;
+}
+.RVlighVioletBlock{
+    background-color: #f3f3f3;
+    color: black;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 35px 25px;
+}
+.RVdarkVioletBlock{
+    background-color: #8f859e;
+    color: white;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 85px;
+}
+input, select{
+    width: 100%;
+    padding: 10px;
+    color: grey;
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
+label{
+    font-size: 12px;
+}
+.RVleft{
+    padding-left: 15px;
+}
+.an-btn{
+    font-size: 15px;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 40px;
+    background: none;
+    margin: 30px 0px;
+}
+.an-btn-primary{
+    background-color: #8f859e;
+    border: 2px solid #f3f3f3;
+    width: 100%;
+}
+.an-btn-secondary{
+    border: 2px solid floralwhite;
+}
+.RVvideobtn{
+    color: white;
+    border: none;
+    top: 50%;
+    right: 50%;
+    font-size: 64px;
+    padding: 10px 20px;
+    border-radius: 50%;
+    text-align: center;
+    opacity: 0.9;
+    cursor: pointer;
+}
+h2{
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 10px;
+  }
+h1{
+    color: #fff;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+}
+h3{
+    font-size: 24px;
+}
+h4{
+    font-size: 18px;
+}
+p{
+    padding: 15px 0px;
+}
+.RVdarkVioletBlock span{
+    color:  #f3dfed;
+    padding: 7px;
 }
