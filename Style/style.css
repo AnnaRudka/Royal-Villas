@@ -153,6 +153,9 @@ label{
 .RVleft{
     padding-left: 15px;
 }
+.RVtop{
+    padding-top: 15px;
+}
 .an-btn{
     font-size: 15px;
     color: #fff;
@@ -204,4 +207,43 @@ p{
 .RVdarkVioletBlock span{
     color:  #f3dfed;
     padding: 7px;
+}
+.RVgalleryblock{
+    color: black;
+    padding: 10px;
+    border-bottom: 1px solid #d6d6d6;
+    margin-bottom: 30px;
+}
+.rv-readmore{
+    color: white;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+    padding-left: 30px;
+    border: tomato 1px solid;
+    box-sizing: border-box;
+}
+.rv-readmore-block{
+    opacity: 0.5;
+    background-color: white;
+    border: 2px solid white;
+    height: 100%;
+    width: 100%;
+}
+.rv-readmore-item{
+    color: rgb(97, 68, 87);
+    opacity: 1;
+    top: 50%;
+    left: 30%;
+}
+.rv-readmore:hover{
+    opacity: 1;
+}
+.rv-textblock{
+    padding-left: 100px;
+    padding-right: 70px;
 }
